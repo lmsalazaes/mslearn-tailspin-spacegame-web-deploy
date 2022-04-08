@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'own fedora'
+  name: 'own fedora'
   demands:
   - npm
 
